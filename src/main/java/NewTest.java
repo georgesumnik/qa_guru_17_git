@@ -3,8 +3,9 @@ import org.junit.Test;
 public class NewTest {
     @Test
     void newTest() {
+        int i = 3;
         System.out.println("This is the best test");
-        Assertions.assertTrue(3>2)
+        Assertions.assertTrue(i>2)
     }
 
 }
